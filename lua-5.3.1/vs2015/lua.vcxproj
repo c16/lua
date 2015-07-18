@@ -14,6 +14,9 @@
     <ProjectReference Include="..\lualib\lualib.vcxproj">
       <Project>{36ad732b-2d16-4883-93dd-f70bd2dcb245}</Project>
     </ProjectReference>
+    <ProjectReference Include="lualib.vcxproj">
+      <Project>{36ad732b-2d16-4883-93dd-f70bd2dcb245}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\lua.c" />

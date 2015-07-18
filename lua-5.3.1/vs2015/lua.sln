@@ -4,13 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua.vcxproj", "{A9C40FD1-9023-4FEF-90B0-F79605F081B9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{83E116D3-A802-404A-B89E-605BE4E51DF6} = {83E116D3-A802-404A-B89E-605BE4E51DF6}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "..\lualib\lualib.vcxproj", "{83E116D3-A802-404A-B89E-605BE4E51DF6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac.vcxproj", "{7F3561BD-6990-4FE8-9FD4-D80FB5A8C633}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "lualib.vcxproj", "{36AD732B-2D16-4883-93DD-F70BD2DCB245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,14 +19,14 @@ Global
 		{A9C40FD1-9023-4FEF-90B0-F79605F081B9}.Debug|x86.Build.0 = Debug|Win32
 		{A9C40FD1-9023-4FEF-90B0-F79605F081B9}.Release|x86.ActiveCfg = Release|Win32
 		{A9C40FD1-9023-4FEF-90B0-F79605F081B9}.Release|x86.Build.0 = Release|Win32
-		{83E116D3-A802-404A-B89E-605BE4E51DF6}.Debug|x86.ActiveCfg = Debug|Win32
-		{83E116D3-A802-404A-B89E-605BE4E51DF6}.Debug|x86.Build.0 = Debug|Win32
-		{83E116D3-A802-404A-B89E-605BE4E51DF6}.Release|x86.ActiveCfg = Release|Win32
-		{83E116D3-A802-404A-B89E-605BE4E51DF6}.Release|x86.Build.0 = Release|Win32
 		{7F3561BD-6990-4FE8-9FD4-D80FB5A8C633}.Debug|x86.ActiveCfg = Debug|Win32
 		{7F3561BD-6990-4FE8-9FD4-D80FB5A8C633}.Debug|x86.Build.0 = Debug|Win32
 		{7F3561BD-6990-4FE8-9FD4-D80FB5A8C633}.Release|x86.ActiveCfg = Release|Win32
 		{7F3561BD-6990-4FE8-9FD4-D80FB5A8C633}.Release|x86.Build.0 = Release|Win32
+		{36AD732B-2D16-4883-93DD-F70BD2DCB245}.Debug|x86.ActiveCfg = Debug|Win32
+		{36AD732B-2D16-4883-93DD-F70BD2DCB245}.Debug|x86.Build.0 = Debug|Win32
+		{36AD732B-2D16-4883-93DD-F70BD2DCB245}.Release|x86.ActiveCfg = Release|Win32
+		{36AD732B-2D16-4883-93DD-F70BD2DCB245}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
